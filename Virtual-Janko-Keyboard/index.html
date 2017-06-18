@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Mann's Virtual Keyboard </title>
+	
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="keyCodeListener.js"></script>
+		<script src="script.js"></script>
+		
+		
+	</head>
+	
+
+	<body>
+	<center>
+		<div id="base">
+			<h1> Mann's Virtual Jankó Keyboard </h1>
+			<table>
+				<tr><!--This is the top row-->
+					<td>
+						<div id="keys">
+							<button id="white" class="note white"><p>A<sup>3  <sup></br>(`)</sup> </sup></p></button>
+							<button id="white" class="note white"><p>B<sup>3  <sup></br>(1)</sup> </sup></p></button>
+							<button id="black" class="note black"><p>C<sup>#4 <sup></br>(2)</sup> </sup></p></button>
+							<button id="black" class="note black"><p>D<sup>#4 <sup></br>(3)</sup> </sup></p></button>
+							<button id="white" class="note white"><p>F<sup>4  <sup></br>(4)</sup> </sup></p></button>
+							<button id="white" class="note white"><p>G<sup>4  <sup></br>(5)</sup> </sup></p></button>
+							<button id="white" class="note white"><p>A<sup>4  <sup></br>(6)</sup> </sup></p></button>
+							<button id="white" class="note white"><p>B<sup>4  <sup></br>(7)</sup> </sup></p></button>
+							<button id="black" class="note black"><p>C<sup>#5 <sup></br>(8)</sup> </sup></p></button>
+							<button id="black" class="note black"><p>D<sup>#5 <sup></br>(8)</sup> </sup></p></button>
+							<button id="white" class="note white"><p>F<sup>5  <sup></br>(0)</sup> </sup></p></button>
+							<button id="white" class="note white"><p>G<sup>5  <sup></br>(-)</sup> </sup></p></button>
+							<button id="white" class="note white"><p>A<sup>5  <sup></br>(=)</sup> </sup></p></button>
+							<button id="*" class="note half"> </button>
+						</div>
+					</td>
+				</tr>
+				<tr><!--This is the second row-->
+					<td>
+						<div id="keys">
+							<button id="*" 	 class="note half"> </button>
+							<button id="tab" class="note black"><p>A<sup>#3 <sup></br>(TAB)</sub></sup></p></button>				
+							<button id="white" 	 class="note white"><p>C<sup>4  <sup></br>(Q)</sup></sub></p></button>						
+							<button id="white"   class="note white"><p>D<sup>4	<sup></br>(W)</sup></sub></p></button>							
+							<button id="white"   class="note white"><p>E<sup>4	<sup></br>(E)</sup></sub></p></button>							
+							<button id="black"   class="note black"><p>F<sup>#4	<sup></br>(R)</sup></sub></p></button>						
+							<button id="black"   class="note black"><p>G<sup>#4	<sup></br>(T)</sup></sub></p></button>							
+							<button id="black"   class="note black"><p>A<sup>#4	<sup></br>(Y)</sup></sub></p></button>							
+							<button id="white"   class="note white"><p>C<sup>5	<sup></br>(U)</sup></sub></p></button>						
+							<button id="white"   class="note white"><p>D<sup>5	<sup></br>(I)</sup></sub></p></button>							
+							<button id="white"   class="note white"><p>E<sup>5	<sup></br>(O)</sup></sub></p></button>							
+							<button id="black"   class="note black"><p>F<sup>#5	<sup></br>(P)</sup></sub></p></button>						
+							<button id="black"   class="note black"><p>G<sup>#5	<sup></br>([)</sup></sub></p></button>							
+							<button id="black"   class="note black"><p>A<sup>#5	<sup></br>(])</sup></sub></p></button>
+						</div>
+					</td>
+				</tr>
+				<tr><!--This is the third row-->
+					<td>
+						<div id="keys">
+							<button id="white" class="note white"><p>A<sup>3   <sup></br>(Caps-Lck)</sup> </sup></p></button>
+							<button id="white"  class="note white"><p>B<sup>3   <sup></br>(A)</sup> </sup></p></button>
+							<button id="black"  class="note black"><p>C<sup>#4  <sup></br>(S)</sup> </sup></p></button>
+							<button id="black"  class="note black"><p>D<sup>#4  <sup></br>(D)</sup> </sup></p></button>
+							<button id="white"  class="note white"><p>F<sup>4   <sup></br>(F)</sup> </sup></p></button>
+							<button id="white"  class="note white"><p>G<sup>4   <sup></br>(G)</sup> </sup></p></button>
+							<button id="white"  class="note white"><p>A<sup>4   <sup></br>(H)</sup> </sup></p></button>
+							<button id="white"  class="note white"><p>B<sup>4   <sup></br>(J)</sup> </sup></p></button>
+							<button id="black"  class="note black"><p>C<sup>#5  <sup></br>(K)</sup> </sup></p></button>
+							<button id="black"  class="note black"><p>D<sup>#5  <sup></br>(L)</sup> </sup></p></button>
+							<button id="white"  class="note white"><p>F<sup>5   <sup></br>(;)</sup> </sup></p></button>
+							<button id="white"  class="note white"><p>G<sup>5   <sup></br>(')</sup> </sup></p></button>
+							<button id="white"  class="note white"><p>A<sup>5   <sup></br>(#)</sup> </sup></p></button>
+							<button id="*"  class="note half"> </div>
+						</div>
+					</td>
+				</tr>
+				<tr><!--This is the fourth row-->
+					<td>
+						<div id="keys">
+							<button id="*"  class="note half"> </button>
+							<button id="black" class="note black"><p>A<sup>#3	<sup></br>(Ctrl)</sup> </sup></p></button>
+							<button id="white" 	class="note white"><p>C<sup>4	<sup></br>(\)</sup> </sup></p></button>
+							<button id="white" 	class="note white"><p>D<sup>4	<sup></br>(Z)</sup> </sup></p></button>
+							<button id="white" 	class="note white"><p>E<sup>4	<sup></br>(X)</sup> </sup></p></button>
+							<button id="black" 	class="note black"><p>F<sup>#4	<sup></br>(C)</sup> </sup></p></button>
+							<button id="black" 	class="note black"><p>G<sup>#4	<sup></br>(V)</sup> </sup></p></button>
+							<button id="black" 	class="note black"><p>A<sup>#4	<sup></br>(B)</sup> </sup></p></button>
+							<button id="white" 	class="note white"><p>C<sup>5	<sup></br>(N)</sup> </sup></p></button>
+							<button id="white" 	class="note white"><p>D<sup>5	<sup></br>(M)</sup> </sup></p></button>
+							<button id="white" 	class="note white"><p>E<sup>5	<sup></br>(,)</sup> </sup></p></button>
+							<button id="black" 	class="note black"><p>F<sup>#5	<sup></br>(.)</sup> </sup></p></button>
+							<button id="black"	class="note black"><p>G<sup>#5	<sup></br>(/)</sup> </sup></p></button>
+							<button id="black" class="note black"><p>A<sup>#5	<sup></br>(Up-Arr)</sup> </sup></p></button>
+						</div>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</center>
+	
+	<!--ALL AUDIO IS DEFINED HERE-->
+	
+	<!--TOP AND THIRD ROW AUDIO IN ORDER-->
+	<audio id="A3" controls style="display:none">
+		<source src="sounds/39184__jobro__piano-ff-037.wav" type="audio/wav">
+		Your browser does not support the audio element.
+	</audio>
+	
+	<audio id="C#4" controls style="display:none">
+		<source src="sounds/39188__jobro__piano-ff-041.wav" type="audio/wav">
+		Your browser does not support the audio element.
+	</audio>	
+	
+	<audio id="B3" controls style="display:none">
+		<source src="sounds/39185__jobro__piano-ff-038.wav" type="audio/wav">
+		Your browser does not support the audio element.
+	</audio>	
+	
+	<audio id="C#4" controls style="display:none">
+		<source src="sounds/39188__jobro__piano-ff-041.wav" type="audio/wav">
+		Your browser does not support the audio element.
+	</audio>
+	
+	<audio id="D#4" controls style="display:none">
+		<source src="sounds/39190__jobro__piano-ff-043.wav" type="audio/wav">
+		Your browser does not support the audio element.
+	</audio>	
+	
+	<audio id="F4" controls style="display:none">
+		<source src="sounds/39193__jobro__piano-ff-045.wav" type="audio/wav">
+		Your browser does not support the audio element.
+	</audio>	
+	
+	<audio id="G4" controls style="display:none">
+		<source src="sounds/39195__jobro__piano-ff-047.wav" type="audio/wav">
+		Your browser does not support the audio element.
+	</audio>
+	
+	<audio id="A4" controls style="display:none">
+		<source src="sounds/39197__jobro__piano-ff-049.wav" type="audio/wav">
+		Your browser does not support the audio element.
+	</audio>	
+	
+	<audio id="B4" controls style="display:none">
+		<source src="sounds/39199__jobro__piano-ff-051.wav" type="audio/wav">
+		Your browser does not support the audio element.
+	</audio>
+	
+	<audio id="C#5" controls style="display:none">
+		<source src="sounds/39201__jobro__piano-ff-053.wav" type="audio/wav">
+		Your browser does not support the audio element.
+	</audio>
+
+	<audio id="D#5" controls style="display:none">
+		<source src="sounds/39203__jobro__piano-ff-055.wav" type="audio/wav">
+		Your browser does not support the audio element.
+	</audio>	
+	
+	<audio id="F5" controls style="display:none">
+		<source src="sounds/39205__jobro__piano-ff-057.wav" type="audio/wav">
+		Your browser does not support the audio element.
+	</audio>
+	
+	<audio id="G5" controls style="display:none">
+		<source src="sounds/39207__jobro__piano-ff-059.wav" type="audio/wav">
+		Your browser does not support the audio element.
+	</audio>
+	
+	<audio id="A5" controls style="display:none">
+		<source src="sounds/39209__jobro__piano-ff-061.wav" type="audio/wav">
+		Your browser does not support the audio element.
+	</audio>
+	
+	<!-- SECOND AND FOURTH KEYBED-->
+	<audio id="A#3" controls style="display:none">
+		<source src="sounds/39185__jobro__piano-ff-038.wav" type="audio/wav">
+		Your browser does not support the audio element.
+	</audio>
+	
+	<audio id="C4" controls style="display:none">
+		<source src="sounds/39187__jobro__piano-ff-040.wav" type="audio/wav">
+		Your browser does not support the audio element.
+	</audio>
+	
+	<audio id="D4" controls style="display:none">
+		<source src="sounds/39189__jobro__piano-ff-042.wav" type="audio/wav">
+		Your browser does not support the audio element.
+	</audio>
+	
+	<audio id="E4" controls style="display:none">
+		<source src="sounds/39191__jobro__piano-ff-044.wav" type="audio/wav">
+		Your browser does not support the audio element.
+	</audio>
+	
+	<audio id="F#4" controls style="display:none">
+		<source src="sounds/39194__jobro__piano-ff-046.wav" type="audio/wav">
+		Your browser does not support the audio element.
+	</audio>
+	
+	<audio id="G#4" controls style="display:none">
+		<source src="sounds/39196__jobro__piano-ff-048.wav" type="audio/wav">
+		Your browser does not support the audio element.
+	</audio>
+	
+	<audio id="A#4" controls style="display:none">
+		<source src="sounds/39198__jobro__piano-ff-050.wav" type="audio/wav">
+		Your browser does not support the audio element.
+	</audio>
+	
+	<audio id="C5" controls style="display:none">
+		<source src="sounds/39200__jobro__piano-ff-052.wav" type="audio/wav">
+		Your browser does not support the audio element.
+	</audio>
+	
+	<audio id="D5" controls style="display:none">
+		<source src="sounds/39202__jobro__piano-ff-054.wav" type="audio/wav">
+		Your browser does not support the audio element.
+	</audio>
+	
+	<audio id="E5" controls style="display:none">
+		<source src="sounds/39204__jobro__piano-ff-056.wav" type5"audio/wav">
+		Your browser does not support the audio element.
+	</audio>
+	
+	<audio id="F#5" controls style="display:none">
+		<source src="sounds/39206__jobro__piano-ff-058.wav" type="audio/wav">
+		Your browser does not support the audio element.
+	</audio>
+	
+	<audio id="G#5" controls style="display:none">
+		<source src="sounds/39208__jobro__piano-ff-060.wav" type="audio/wav">
+		Your browser does not support the audio element.
+	</audio>
+	
+	<audio id="A#5" controls style="display:none">
+		<source src="sounds/39210__jobro__piano-ff-062.wav" type="audio/wav">
+		Your browser does not support the audio element.
+	</audio>
+	
+	<body>
+<html>
