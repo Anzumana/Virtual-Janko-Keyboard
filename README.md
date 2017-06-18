@@ -3,7 +3,7 @@ A basic virtual Jankó piano written in HTML, CSS and JavaScript.
 Designed and Programmed by Mannjamin / Ashley Mann.
 
 This is a basic virtual piano based on the designs of Paul von Jankó in 1882.
-Paul von Jankó, as the name suggests, invented the Janko Keyboard as an attempt to simply the functionality of the generic piano keybaord.
+Paul von Jankó, as the name suggests, invented the Janko Keyboard as an attempt to simply the functionality of the generic piano keyboard.
 
 Here is an image of a Jankó Keyboard Layout:
 ![Janko Keyboard](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Janko_keyboard.svg/1200px-Janko_keyboard.svg.png)
