@@ -47,3 +47,9 @@ Once you have gathered the folder containing this repositories scripts you follo
 3. **You're all set to go!**
     1. You can now run the main HTML file in Google Chrome to play the instrument!
          1. _I hope you enjoy it <3_ 
+
+# Future Improvements
+*. Animate the Buttons (Change Color / Border on keypress)
+*. Make Buttons functional (Currently used for representation only, can be made functional for touch surfaces.)
+*. Utilise other sounds (Make other sounds such as a Synth or Bass)
+*. Adjust the size of the keybed to match full screen on any resolution.
