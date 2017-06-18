@@ -1,12 +1,12 @@
 
 //TOP AND THIRD ROW KEYBED
-document.addEventListener('keypress', function(e) {
-	while (e.keyCode == 223 || e.keyCode == 20){
+document.addEventListener('keydown', function(e) {
+	if (e.keyCode == 223 || e.keyCode == 20){
 		document.getElementById('A3').play();
 		
 		document.getElementById('A3').currentTime = 0;
 		
-		document.getElementById("white").style.backgroundColor = "#CECEC2";
+		return;
 	} 
 });
 
