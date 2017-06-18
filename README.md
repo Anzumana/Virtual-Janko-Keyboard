@@ -50,6 +50,9 @@ Once you have gathered the folder containing this repositories scripts you follo
 
 # Future Improvements
 *. Animate the Buttons (Change Color / Border on keypress)
+
 *. Make Buttons functional (Currently used for representation only, can be made functional for touch surfaces.)
+
 *. Utilise other sounds (Make other sounds such as a Synth or Bass)
+
 *. Adjust the size of the keybed to match full screen on any resolution.
