@@ -56,3 +56,10 @@ Once you have gathered the folder containing this repositories scripts you follo
 3.  Utilise other sounds (Make other sounds such as a Synth or Bass)
 
 4.  Adjust the size of the keybed to match full screen on any resolution.
+
+### Support:
+If you have any queries or wish to show me an adapted version you have cerated, please join my discord!
+I would be more than happy to answer any questions or check out any versions you have created using this script!
+
+[Mannjamins Dungeon Link!](https://discord.gg/rGqFhQ5)
+![Mannjamins Dungeon Discord](http://www.legitreviews.com/wp-content/uploads/2016/03/discord.jpg "Mannjamins Dungeon")
